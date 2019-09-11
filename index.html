@@ -24,7 +24,7 @@
                 if (regions[regionId]) {
                     myMap.geoObjects.add(new ymaps.Polygon([polygons[regionId]], {hintContent: regions[regionId].regionName}));
                 } else {
-                    myMap.geoObjects.add(new ymaps.Polygon([polygons[regionId]], {hintContent: regionId}, {fillColor: '#0f0'}));
+                    myMap.geoObjects.add(new ymaps.Polygon([polygons[regionId]], {hintContent: regionId}));
                 }
             }
         });
